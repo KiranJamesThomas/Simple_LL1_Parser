@@ -1,0 +1,44 @@
+QUESTION 1:
+
+S -> a A B b
+A -> c
+A -> ''
+B -> d
+B -> ''
+
+QUESTION 2:
+
+S -> A a b B
+S -> B b B a
+A -> ' '
+B -> ' '
+
+QUESTION 3:
+
+S -> ( L )
+S -> a
+L -> S L'
+L' -> ) S L'
+L' -> ''
+
+QUESTION 4:
+
+S -> A B
+S -> e D a
+A -> a b
+A -> c
+B -> d C
+C -> e C
+C -> ''
+D -> f D
+D -> ''
+
+QUESTION 5: 
+
+S -> A 
+S -> a
+A -> a
+
+
+
+
